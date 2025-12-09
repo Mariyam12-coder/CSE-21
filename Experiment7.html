@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Layout Exercise</title>
+    <style>
+        .container {
+            border: 2px solid black;
+            padding: 5px;
+            max-width: 900px; 
+            margin: 20px auto;
+            font-family: sans-serif;
+        }
+
+        .header {
+            display: block;
+            background-color: #cccccc;
+            text-align: center;
+            padding: 15px 0;
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+
+        .highlight-text {
+            display: inline;
+            color: red;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        li a {
+            text-decoration: none;
+            color: #4b3d8f;
+            padding: 5px 10px;
+            display: block; 
+        }
+
+        .nav-blue {
+            margin-top: 15px;
+        }
+
+        .nav-blue li {
+            float: left;
+            background-color: lightblue;
+            margin-right: 10px;
+        }
+
+        .nav-green {
+            clear: both;
+            margin-top: 15px;
+            margin-bottom: 10px;
+            font-size: 0; 
+        }
+
+        .nav-green li {
+            display: inline-block;
+            background-color: lightgreen;
+            margin-right: 10px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="header">
+            My <span class="highlight-text">Website</span> Navigation
+        </div>
+
+        <ul class="nav-blue">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+
+        <ul class="nav-green">
+            <li><a href="#">Dashboard</a></li>
+            <li><a href="#">Profile</a></li>
+            <li><a href="#">Messages</a></li>
+            <li><a href="#">Logout</a></li>
+        </ul>
+    </div>
+
+</body>
+</html>

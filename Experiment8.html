@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Profile Cards</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            height: 100vh;
+            align-items: center;
+            background-color: #ffffff;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            flex-wrap: wrap;
+            padding: 20px;
+            border: 2px solid black;
+            width: 90%;
+            max-width: 1000px;
+        }
+
+        .card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            width: 250px;
+            padding: 30px 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+        }
+
+        .avatar {
+            width: 80px;
+            height: 80px;
+            background-color: #007bff;
+            border-radius: 50%;
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        h3 {
+            margin: 10px 0 5px 0;
+            color: #000;
+            font-size: 18px;
+        }
+
+        p {
+            margin: 3px 0;
+            color: #555;
+            font-size: 14px;
+            text-align: center;
+        }
+
+        .roll-no {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        
+        <div class="card">
+            <div class="avatar">JK</div>
+            <h3>Jeet Kumar</h3>
+            <p>B.Tech - CSE</p>
+            <p class="roll-no">Roll No: 21CS1007</p>
+            <p>1st Year</p>
+        </div>
+
+        <div class="card">
+            <div class="avatar">AR</div>
+            <h3>Asha Rani</h3>
+            <p>B.Tech - IT</p>
+            <p class="roll-no">Roll No: 21IT1012</p>
+            <p>1st Year</p>
+        </div>
+
+        <div class="card">
+            <div class="avatar">RK</div>
+            <h3>Rohit Kumar</h3>
+            <p>B.Tech - ECE</p>
+            <p class="roll-no">Roll No: 21EC1009</p>
+            <p>1st Year</p>
+        </div>
+
+    </div>
+
+</body>
+</html>
